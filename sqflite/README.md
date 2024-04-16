@@ -120,46 +120,11 @@ print('sync status: ${res}');
 ```
 
 
-### User Sign Up & User Login 
-
-When the user is accessing your app for the first time (in any device), it will be required to sign up
-
-The app can capture user data and send it to the backend user authorization service using this command:
-
-```
-pragma user_signup='<user_data>'
-```
-
-If the user is already signed up on your backend and is now using a new device, it should use the login option:
-
-```
-pragma user_login='<user_data>'
-```
-
-You can use any user data you want (phone number, username, OAuth...). The data can be encoded in a text (JSON, YAML...)
-or a binary format. If using a text format, each single quote must be doubled (replace `'` with `''`).
-If using a binary format then it must be encoded in base64 or hex because the command only accepts strings.
-
-Here is an example code using JSON:
-
-```dart
-var user = {};
-user["email"] = ...
-user["password"] = ...
-String str = json.encode(user);
-str = str.replaceAll("'", "''");
-db.execute("pragma user_signup='${str}'");
-```
-
-Notice that you must implement the [backend service](https://github.com/litesync/docs/blob/master/auth-service.md)
-that handles these authorization requests.
-
-
 ### Multi-User App
 
 To support multiple users in a single app installation your app can have a database for each user.
 
-Your app will need to keep track of which database is used for each user.
+Your app will need to keep track of which database is used for each user, as well as which IP address and port to connect to.
 An easy way is to convert the username or e-mail into hex format and then use it as the database name:
 
 ```dart
