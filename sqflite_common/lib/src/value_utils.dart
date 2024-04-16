@@ -1,6 +1,6 @@
 import 'dart:typed_data';
 
-import 'package:octodb_sqflite_common/src/env_utils.dart';
+import 'package:litesync_sqflite_common/src/env_utils.dart';
 
 /// Don't throw exception yet. will be done in the future.
 var checkThrowException = false;

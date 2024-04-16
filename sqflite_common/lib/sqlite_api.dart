@@ -1,16 +1,16 @@
 import 'dart:async';
 
-import 'package:octodb_sqflite_common/sql.dart' show ConflictAlgorithm;
-import 'package:octodb_sqflite_common/src/open_options.dart' as impl;
+import 'package:litesync_sqflite_common/sql.dart' show ConflictAlgorithm;
+import 'package:litesync_sqflite_common/src/open_options.dart' as impl;
 
-export 'package:octodb_sqflite_common/sql.dart' show ConflictAlgorithm;
-export 'package:octodb_sqflite_common/src/constant.dart'
+export 'package:litesync_sqflite_common/sql.dart' show ConflictAlgorithm;
+export 'package:litesync_sqflite_common/src/constant.dart'
     show
         inMemoryDatabasePath,
         sqfliteLogLevelNone,
         sqfliteLogLevelSql,
         sqfliteLogLevelVerbose;
-export 'package:octodb_sqflite_common/src/exception.dart' show DatabaseException;
+export 'package:litesync_sqflite_common/src/exception.dart' show DatabaseException;
 
 
 /// Prototype of the function called when the database is not yet ready.

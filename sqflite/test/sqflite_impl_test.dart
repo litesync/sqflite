@@ -1,8 +1,8 @@
 import 'package:flutter/services.dart';
 import 'package:flutter_test/flutter_test.dart';
-import 'package:octodb_sqflite/src/factory_impl.dart';
-import 'package:octodb_sqflite/src/mixin/factory.dart';
-import 'package:octodb_sqflite/src/sqflite_impl.dart';
+import 'package:litesync_sqflite/src/factory_impl.dart';
+import 'package:litesync_sqflite/src/mixin/factory.dart';
+import 'package:litesync_sqflite/src/sqflite_impl.dart';
 
 void main() {
   TestWidgetsFlutterBinding.ensureInitialized();

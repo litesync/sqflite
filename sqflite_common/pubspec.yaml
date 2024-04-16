@@ -1,6 +1,6 @@
-name: octodb_sqflite_common
-homepage: https://github.com/octodb/sqflite/tree/master/sqflite_common
-description: Dart wrapper on OctoDB & SQLite
+name: litesync_sqflite_common
+homepage: https://github.com/litesync/sqflite/tree/master/sqflite_common
+description: Dart wrapper on LiteSync & SQLite
 version: 2.0.0-dev.1
 
 environment:

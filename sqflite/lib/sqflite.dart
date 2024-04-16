@@ -1,17 +1,17 @@
 import 'dart:async';
 
-import 'package:octodb_sqflite/src/compat.dart';
-import 'package:octodb_sqflite/src/constant.dart';
-import 'package:octodb_sqflite/src/factory_impl.dart' show databaseFactory;
-import 'package:octodb_sqflite/src/sqflite_impl.dart';
-import 'package:octodb_sqflite/src/utils.dart' as impl;
-import 'package:octodb_sqflite/utils/utils.dart' as utils;
+import 'package:litesync_sqflite/src/compat.dart';
+import 'package:litesync_sqflite/src/constant.dart';
+import 'package:litesync_sqflite/src/factory_impl.dart' show databaseFactory;
+import 'package:litesync_sqflite/src/sqflite_impl.dart';
+import 'package:litesync_sqflite/src/utils.dart' as impl;
+import 'package:litesync_sqflite/utils/utils.dart' as utils;
 
 import 'sqlite_api.dart';
 
-export 'package:octodb_sqflite/sql.dart' show ConflictAlgorithm;
-export 'package:octodb_sqflite/src/compat.dart';
-export 'package:octodb_sqflite/src/factory_impl.dart' show databaseFactory;
+export 'package:litesync_sqflite/sql.dart' show ConflictAlgorithm;
+export 'package:litesync_sqflite/src/compat.dart';
+export 'package:litesync_sqflite/src/factory_impl.dart' show databaseFactory;
 
 export 'sqlite_api.dart';
 

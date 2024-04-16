@@ -1,7 +1,7 @@
-import 'package:octodb_sqflite_common/sqlite_api.dart';
-import 'package:octodb_sqflite_common/src/batch.dart';
-import 'package:octodb_sqflite_common/src/database.dart';
-import 'package:octodb_sqflite_common/src/database_mixin.dart';
+import 'package:litesync_sqflite_common/sqlite_api.dart';
+import 'package:litesync_sqflite_common/src/batch.dart';
+import 'package:litesync_sqflite_common/src/database.dart';
+import 'package:litesync_sqflite_common/src/database_mixin.dart';
 
 /// Transaction implementation
 class SqfliteTransaction

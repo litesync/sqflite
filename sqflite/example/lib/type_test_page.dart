@@ -3,7 +3,7 @@ import 'dart:io';
 import 'dart:math';
 import 'dart:typed_data';
 
-import 'package:octodb_sqflite/sqflite.dart';
+import 'package:litesync_sqflite/sqflite.dart';
 
 import 'test_page.dart';
 

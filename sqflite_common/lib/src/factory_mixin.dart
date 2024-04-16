@@ -1,12 +1,12 @@
 import 'package:path/path.dart';
-import 'package:octodb_sqflite_common/sqlite_api.dart';
-import 'package:octodb_sqflite_common/src/constant.dart';
-import 'package:octodb_sqflite_common/src/database.dart';
-import 'package:octodb_sqflite_common/src/database_mixin.dart';
-import 'package:octodb_sqflite_common/src/exception.dart';
-import 'package:octodb_sqflite_common/src/factory.dart';
-import 'package:octodb_sqflite_common/src/mixin/factory.dart';
-import 'package:octodb_sqflite_common/src/open_options.dart';
+import 'package:litesync_sqflite_common/sqlite_api.dart';
+import 'package:litesync_sqflite_common/src/constant.dart';
+import 'package:litesync_sqflite_common/src/database.dart';
+import 'package:litesync_sqflite_common/src/database_mixin.dart';
+import 'package:litesync_sqflite_common/src/exception.dart';
+import 'package:litesync_sqflite_common/src/factory.dart';
+import 'package:litesync_sqflite_common/src/mixin/factory.dart';
+import 'package:litesync_sqflite_common/src/open_options.dart';
 import 'package:synchronized/synchronized.dart';
 
 /// Base factory implementation

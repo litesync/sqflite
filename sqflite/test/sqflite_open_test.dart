@@ -1,6 +1,6 @@
 import 'package:flutter/services.dart';
 import 'package:flutter_test/flutter_test.dart';
-import 'package:octodb_sqflite/sqflite.dart';
+import 'package:litesync_sqflite/sqflite.dart';
 
 const channel = MethodChannel('com.tekartik.sqflite');
 

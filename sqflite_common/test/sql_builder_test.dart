@@ -1,5 +1,5 @@
 //import 'package:test/test.dart';
-import 'package:octodb_sqflite_common/src/sql_builder.dart';
+import 'package:litesync_sqflite_common/src/sql_builder.dart';
 import 'package:test/test.dart';
 
 void main() {

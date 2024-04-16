@@ -1,1 +1,1 @@
-export 'package:octodb_sqflite_common/sqlite_api.dart';
+export 'package:litesync_sqflite_common/sqlite_api.dart';

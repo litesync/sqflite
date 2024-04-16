@@ -1,13 +1,13 @@
 import 'dart:async';
 
 import 'package:path/path.dart';
-import 'package:octodb_sqflite_common/sqlite_api.dart';
-import 'package:octodb_sqflite_common/src/constant.dart';
-import 'package:octodb_sqflite_common/src/database.dart';
-import 'package:octodb_sqflite_common/src/mixin.dart';
-import 'package:octodb_sqflite_common/src/mixin/dev_utils.dart'; // ignore: unused_import
-import 'package:octodb_sqflite_common/src/open_options.dart';
-import 'package:octodb_sqflite_common/utils/utils.dart';
+import 'package:litesync_sqflite_common/sqlite_api.dart';
+import 'package:litesync_sqflite_common/src/constant.dart';
+import 'package:litesync_sqflite_common/src/database.dart';
+import 'package:litesync_sqflite_common/src/mixin.dart';
+import 'package:litesync_sqflite_common/src/mixin/dev_utils.dart'; // ignore: unused_import
+import 'package:litesync_sqflite_common/src/open_options.dart';
+import 'package:litesync_sqflite_common/utils/utils.dart';
 import 'package:test/test.dart';
 
 void main() {

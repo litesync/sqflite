@@ -2,13 +2,13 @@ import 'dart:async';
 
 import 'package:flutter_test/flutter_test.dart';
 import 'package:path/path.dart';
-import 'package:octodb_sqflite/sqlite_api.dart';
+import 'package:litesync_sqflite/sqlite_api.dart';
 
-import 'package:octodb_sqflite/src/constant.dart';
-import 'package:octodb_sqflite/src/database.dart';
-import 'package:octodb_sqflite/src/mixin.dart';
-import 'package:octodb_sqflite/src/open_options.dart';
-import 'package:octodb_sqflite/utils/utils.dart';
+import 'package:litesync_sqflite/src/constant.dart';
+import 'package:litesync_sqflite/src/database.dart';
+import 'package:litesync_sqflite/src/mixin.dart';
+import 'package:litesync_sqflite/src/open_options.dart';
+import 'package:litesync_sqflite/utils/utils.dart';
 
 void main() {
   group('mixin_flutter', () {

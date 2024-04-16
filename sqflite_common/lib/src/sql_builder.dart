@@ -1,4 +1,4 @@
-import 'package:octodb_sqflite_common/src/value_utils.dart';
+import 'package:litesync_sqflite_common/src/value_utils.dart';
 
 /// Insert/Update conflict resolver
 enum ConflictAlgorithm {

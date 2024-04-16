@@ -9,8 +9,8 @@ import 'package:flutter_test/flutter_test.dart';
 import 'package:integration_test/integration_test.dart';
 import 'package:path/path.dart';
 import 'package:pedantic/pedantic.dart';
-import 'package:octodb_sqflite/sqflite.dart';
-import 'package:octodb_sqflite_example/src/common_import.dart';
+import 'package:litesync_sqflite/sqflite.dart';
+import 'package:litesync_sqflite_example/src/common_import.dart';
 
 void main() {
   IntegrationTestWidgetsFlutterBinding.ensureInitialized();

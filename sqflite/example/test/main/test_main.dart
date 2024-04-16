@@ -1,5 +1,5 @@
-import 'package:octodb_sqflite_example/main.dart' as app;
-import 'package:octodb_sqflite_example/main.dart';
+import 'package:litesync_sqflite_example/main.dart' as app;
+import 'package:litesync_sqflite_example/main.dart';
 
 Future main() async {
   // ignore_for_file: deprecated_member_use, deprecated_member_use_from_same_package

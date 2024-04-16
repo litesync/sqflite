@@ -1,6 +1,6 @@
 import 'package:flutter_test/flutter_test.dart';
-import 'package:octodb_sqflite_example/src/common_import.dart';
-import 'package:octodb_sqflite_example/utils.dart';
+import 'package:litesync_sqflite_example/src/common_import.dart';
+import 'package:litesync_sqflite_example/utils.dart';
 
 void main() {
   group('example', () {

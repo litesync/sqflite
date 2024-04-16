@@ -1,6 +1,6 @@
 import 'package:flutter_test/flutter_test.dart';
-import 'package:octodb_sqflite/sqflite.dart';
-import 'package:octodb_sqflite/sqflite_dev.dart';
+import 'package:litesync_sqflite/sqflite.dart';
+import 'package:litesync_sqflite/sqflite_dev.dart';
 
 import 'src_mixin_test.dart' show MockDatabaseFactoryEmpty;
 

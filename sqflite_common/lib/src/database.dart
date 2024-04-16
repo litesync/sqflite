@@ -1,7 +1,7 @@
-import 'package:octodb_sqflite_common/sqlite_api.dart';
-import 'package:octodb_sqflite_common/src/batch.dart';
-import 'package:octodb_sqflite_common/src/factory.dart';
-import 'package:octodb_sqflite_common/src/transaction.dart';
+import 'package:litesync_sqflite_common/sqlite_api.dart';
+import 'package:litesync_sqflite_common/src/batch.dart';
+import 'package:litesync_sqflite_common/src/factory.dart';
+import 'package:litesync_sqflite_common/src/transaction.dart';
 
 /// Base database executor.
 abstract class SqfliteDatabaseExecutor implements DatabaseExecutor {

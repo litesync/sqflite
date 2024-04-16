@@ -1,5 +1,5 @@
-import 'package:octodb_sqflite/src/services_impl.dart';
-import 'package:octodb_sqflite/src/sqflite_import.dart';
+import 'package:litesync_sqflite/src/services_impl.dart';
+import 'package:litesync_sqflite/src/sqflite_import.dart';
 
 /// Wrap any exception to a [DatabastException]
 Future<T> wrapDatabaseException<T>(Future<T> Function() action) async {

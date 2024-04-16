@@ -1,6 +1,6 @@
-import 'package:octodb_sqflite_common/sqlite_api.dart';
-import 'package:octodb_sqflite_common/src/constant.dart';
-import 'package:octodb_sqflite_common/src/mixin/factory.dart';
+import 'package:litesync_sqflite_common/sqlite_api.dart';
+import 'package:litesync_sqflite_common/src/constant.dart';
+import 'package:litesync_sqflite_common/src/mixin/factory.dart';
 import 'package:test/test.dart';
 
 import 'src_mixin_test.dart';

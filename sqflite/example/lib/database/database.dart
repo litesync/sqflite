@@ -2,7 +2,7 @@ import 'dart:async';
 import 'dart:io';
 
 import 'package:path/path.dart';
-import 'package:octodb_sqflite/sqflite.dart';
+import 'package:litesync_sqflite/sqflite.dart';
 
 /// delete the db, create the folder and returnes its path
 Future<String> initDeleteDb(String dbName) async {

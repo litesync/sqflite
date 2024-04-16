@@ -1,12 +1,12 @@
 import 'dart:async';
 
 import 'package:flutter/material.dart';
-import 'package:octodb_sqflite_example/batch_test_page.dart';
-import 'package:octodb_sqflite_example/deprecated_test_page.dart';
-import 'package:octodb_sqflite_example/exception_test_page.dart';
-import 'package:octodb_sqflite_example/exp_test_page.dart';
-import 'package:octodb_sqflite_example/manual_test_page.dart';
-import 'package:octodb_sqflite_example/src/dev_utils.dart';
+import 'package:litesync_sqflite_example/batch_test_page.dart';
+import 'package:litesync_sqflite_example/deprecated_test_page.dart';
+import 'package:litesync_sqflite_example/exception_test_page.dart';
+import 'package:litesync_sqflite_example/exp_test_page.dart';
+import 'package:litesync_sqflite_example/manual_test_page.dart';
+import 'package:litesync_sqflite_example/src/dev_utils.dart';
 
 import 'model/main_item.dart';
 import 'open_test_page.dart';

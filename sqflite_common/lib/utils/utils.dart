@@ -1,5 +1,5 @@
-import 'package:octodb_sqflite_common/src/utils.dart';
-import 'package:octodb_sqflite_common/src/utils.dart' as impl;
+import 'package:litesync_sqflite_common/src/utils.dart';
+import 'package:litesync_sqflite_common/src/utils.dart' as impl;
 
 /// helper to get the first int value in a query
 /// Useful for COUNT(*) queries

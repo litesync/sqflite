@@ -1,1 +1,1 @@
-export 'package:octodb_sqflite_common/src/mixin/factory.dart';
+export 'package:litesync_sqflite_common/src/mixin/factory.dart';

@@ -1,10 +1,10 @@
-# octodb_sqflite
+# litesync_sqflite
 
-[![pub package](https://img.shields.io/pub/v/sqflite.svg)](https://pub.dev/packages/octodb_sqflite)
+[![pub package](https://img.shields.io/pub/v/sqflite.svg)](https://pub.dev/packages/litesync_sqflite)
 [![Build Status](https://travis-ci.org/tekartik/sqflite.svg?branch=master)](https://travis-ci.org/tekartik/sqflite)
 [![codecov](https://codecov.io/gh/tekartik/sqflite/branch/master/graph/badge.svg)](https://codecov.io/gh/tekartik/sqflite)
 
-OctoDB & SQLite plugin for [Flutter](https://flutter.io).
+LiteSync & SQLite plugin for [Flutter](https://flutter.io).
 Supports iOS, Android and MacOS.
 
 * Support transactions and batches
@@ -29,7 +29,7 @@ In your flutter project add the dependency:
 ```yml
 dependencies:
   ...
-  octodb_sqflite:
+  litesync_sqflite:
 ```
 
 Then run:
@@ -43,27 +43,27 @@ For help getting started with Flutter, view the online [documentation](https://f
 
 ## Native Libraries
 
-To install the free version of OctoDB native libraries, execute the following in your project root folder:
+To install the free version of LiteSync native libraries, execute the following in your project root folder:
 
 ```
 export FLUTTER_PATH=/path/to/flutter/sdk     # <-- put the path to the Flutter SDK here
 echo '----- Android -----'
-wget http://octodb.io/download/octodb.aar
-mv octodb.aar $FLUTTER_PATH/.pub-cache/hosted/pub.dartlang.org/octodb_sqflite-*/android/
+wget http://litesync.io/download/litesync.aar
+mv litesync.aar $FLUTTER_PATH/.pub-cache/hosted/pub.dartlang.org/litesync_sqflite-*/android/
 echo '-----   iOS   -----'
-mkdir octodb && cd octodb
-wget http://octodb.io/download/octodb-free-ios-native-libs.tar.gz
-tar zxvf octodb-free-ios-native-libs.tar.gz
+mkdir litesync && cd litesync
+wget http://litesync.io/download/litesync-free-ios-native-libs.tar.gz
+tar zxvf litesync-free-ios-native-libs.tar.gz
 cd ..
 ```
 
-When moving to the full version of OctoDB just copy the libraries to the respective folders as done above, replacing the existing files.
+When moving to the full version of LiteSync just copy the libraries to the respective folders as done above, replacing the existing files.
 
 
 ## Usage
 
 ```dart
-import 'package:octodb_sqflite/sqflite.dart';
+import 'package:litesync_sqflite/sqflite.dart';
 ```
 
 ### Opening a Database
@@ -82,7 +82,7 @@ terminated). If you want to release resources, you can close the database:
 await db.close();
 ```
 
-* See [more information on opening a database](https://github.com/octodb/sqflite/blob/master/sqflite/doc/opening_db.md).
+* See [more information on opening a database](https://github.com/litesync/sqflite/blob/master/sqflite/doc/opening_db.md).
 
 
 ### Database Status
@@ -151,7 +151,7 @@ str = str.replaceAll("'", "''");
 db.execute("pragma user_signup='${str}'");
 ```
 
-Notice that you must implement the [backend service](https://github.com/octodb/docs/blob/master/auth-service.md)
+Notice that you must implement the [backend service](https://github.com/litesync/docs/blob/master/auth-service.md)
 that handles these authorization requests.
 
 
@@ -235,7 +235,7 @@ assert(count == 1);
 //await database.close();
 ```
 
-Basic information on SQL [here](https://github.com/octodb/sqflite/blob/master/sqflite/doc/sql.md).
+Basic information on SQL [here](https://github.com/litesync/sqflite/blob/master/sqflite/doc/sql.md).
 
 
 ### SQL Helpers
@@ -470,5 +470,5 @@ thread is blocked while in a transaction...
 
 ## More
 
-* [How to](https://github.com/octodb/sqflite/blob/master/sqflite/doc/how_to.md) guide
-* [Notes about Desktop support](https://github.com/octodb/sqflite/blob/master/sqflite/doc/desktop_support.md)
+* [How to](https://github.com/litesync/sqflite/blob/master/sqflite/doc/how_to.md) guide
+* [Notes about Desktop support](https://github.com/litesync/sqflite/blob/master/sqflite/doc/desktop_support.md)

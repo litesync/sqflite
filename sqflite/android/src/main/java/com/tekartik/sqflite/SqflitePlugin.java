@@ -89,7 +89,7 @@ public class SqflitePlugin implements FlutterPlugin, MethodCallHandler {
 
     // Needed public constructor
     public SqflitePlugin() {
-        System.loadLibrary("octodb");
+        System.loadLibrary("litesync");
     }
 
     // Testing only

@@ -1,5 +1,5 @@
 import 'package:flutter_test/flutter_test.dart';
-import 'package:octodb_sqflite/sqlite_api.dart';
+import 'package:litesync_sqflite/sqlite_api.dart';
 
 void main() {
   group('sqlite_api', () {

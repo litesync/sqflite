@@ -1,13 +1,13 @@
 import 'dart:async';
 
 import 'package:flutter/material.dart';
-import 'package:octodb_sqflite/sqflite.dart';
+import 'package:litesync_sqflite/sqflite.dart';
 // ignore: implementation_imports
-import 'package:octodb_sqflite/src/factory_mixin.dart' as impl;
-import 'package:octodb_sqflite/utils/utils.dart';
-import 'package:octodb_sqflite_example/model/item.dart';
-import 'package:octodb_sqflite_example/src/item_widget.dart';
-import 'package:octodb_sqflite_example/utils.dart';
+import 'package:litesync_sqflite/src/factory_mixin.dart' as impl;
+import 'package:litesync_sqflite/utils/utils.dart';
+import 'package:litesync_sqflite_example/model/item.dart';
+import 'package:litesync_sqflite_example/src/item_widget.dart';
+import 'package:litesync_sqflite_example/utils.dart';
 
 /// Manual test page.
 class ManualTestPage extends StatefulWidget {

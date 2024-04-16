@@ -1,5 +1,5 @@
-import 'package:octodb_sqflite_common/sqlite_api.dart';
-import 'package:octodb_sqflite_common/src/exception.dart';
+import 'package:litesync_sqflite_common/sqlite_api.dart';
+import 'package:litesync_sqflite_common/src/exception.dart';
 import 'package:test/test.dart';
 
 import 'test_scenario.dart';

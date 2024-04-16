@@ -1,6 +1,6 @@
 import 'package:flutter/services.dart';
 import 'package:flutter_test/flutter_test.dart';
-import 'package:octodb_sqflite/sql.dart';
+import 'package:litesync_sqflite/sql.dart';
 
 void main() {
   TestWidgetsFlutterBinding.ensureInitialized();

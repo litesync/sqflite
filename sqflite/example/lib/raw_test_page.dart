@@ -3,9 +3,9 @@ import 'dart:convert';
 import 'dart:io';
 
 import 'package:path/path.dart';
-import 'package:octodb_sqflite/sqflite.dart';
-import 'package:octodb_sqflite/utils/utils.dart';
-import 'package:octodb_sqflite_example/src/dev_utils.dart';
+import 'package:litesync_sqflite/sqflite.dart';
+import 'package:litesync_sqflite/utils/utils.dart';
+import 'package:litesync_sqflite_example/src/dev_utils.dart';
 
 import 'test_page.dart';
 

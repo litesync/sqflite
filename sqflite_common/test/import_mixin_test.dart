@@ -1,5 +1,5 @@
-import 'package:octodb_sqflite_common/src/mixin/dev_utils.dart';
-import 'package:octodb_sqflite_common/src/mixin/import_mixin.dart';
+import 'package:litesync_sqflite_common/src/mixin/dev_utils.dart';
+import 'package:litesync_sqflite_common/src/mixin/import_mixin.dart';
 import 'package:test/test.dart';
 
 void main() {

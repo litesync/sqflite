@@ -1,7 +1,7 @@
 import 'package:flutter_test/flutter_test.dart';
-import 'package:octodb_sqflite/sqlite_api.dart';
-import 'package:octodb_sqflite/src/constant.dart';
-import 'package:octodb_sqflite/src/mixin/factory.dart';
+import 'package:litesync_sqflite/sqlite_api.dart';
+import 'package:litesync_sqflite/src/constant.dart';
+import 'package:litesync_sqflite/src/mixin/factory.dart';
 
 import 'src_mixin_test.dart';
 

@@ -1,8 +1,8 @@
 import 'dart:collection';
 
-import 'package:octodb_sqflite_common/src/constant.dart';
-import 'package:octodb_sqflite_common/src/constant.dart' as constant;
-import 'package:octodb_sqflite_common/src/exception.dart';
+import 'package:litesync_sqflite_common/src/constant.dart';
+import 'package:litesync_sqflite_common/src/constant.dart' as constant;
+import 'package:litesync_sqflite_common/src/exception.dart';
 
 export 'dart:async';
 

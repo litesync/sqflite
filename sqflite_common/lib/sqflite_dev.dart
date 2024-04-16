@@ -1,5 +1,5 @@
-import 'package:octodb_sqflite_common/sqlite_api.dart';
-import 'package:octodb_sqflite_common/src/mixin/import_mixin.dart';
+import 'package:litesync_sqflite_common/sqlite_api.dart';
+import 'package:litesync_sqflite_common/src/mixin/import_mixin.dart';
 
 /// Dev extension
 extension SqfliteDatabaseFactoryDev on DatabaseFactory {

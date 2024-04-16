@@ -1,6 +1,6 @@
 #import "SqflitePlugin.h"
 
-#import <OctoFMDB/FMDB.h>
+#import <LiteSyncFMDB/FMDB.h>
 
 #import <sqlite3.h>
 #import "SqfliteOperation.h"

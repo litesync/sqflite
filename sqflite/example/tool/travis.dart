@@ -6,7 +6,7 @@
 
 import 'package:path/path.dart';
 import 'package:process_run/shell.dart';
-import 'package:octodb_sqflite_example/utils.dart';
+import 'package:litesync_sqflite_example/utils.dart';
 
 import 'run_integration_test.dart' as integration_test;
 

@@ -1,6 +1,6 @@
-name: octodb_sqflite
-homepage: https://github.com/octodb/sqflite/tree/master/sqflite
-description: Flutter plugin for OctoDB and SQLite
+name: litesync_sqflite
+homepage: https://github.com/litesync/sqflite/tree/master/sqflite
+description: Flutter plugin for LiteSync and SQLite
 version: 2.0.0-dev.3
 
 environment:
@@ -21,7 +21,7 @@ flutter:
 dependencies:
   flutter:
     sdk: flutter
-  octodb_sqflite_common: ^2.0.0-dev.1
+  litesync_sqflite_common: ^2.0.0-dev.1
   path: '>=1.8.0-0 <3.0.0'
 
 dev_dependencies:
